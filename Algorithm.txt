@@ -1,0 +1,25 @@
+1.       Prompt to the user to enter the length ,width, type of fence, the no of gate you want have it
+
+2.       Accept the values of length ,width, type of fence, the no of gate
+
+3.       Check the type of fence that is
+
+	a.       If the type is wooden then set the amount on type of price and calculate the perimeter
+
+	b.      Multiply the result of perimeter with type of price
+
+	c.       Multiply with tax rate i.e. 0.06
+
+	d.      Add the values of step no 3 plus gate value and build  Permit
+
+	e.      Else if the type is chain –link then set the amount on type of price and calculate the perimeter
+
+	f.        Multiply the result of perimeter with type of price
+
+	g.       Multiply with tax rate i.e. 0.06
+
+	h.      Add the values of step no 3 plus gate value and build  Permit
+
+4.Prompt the cost.
+
+       

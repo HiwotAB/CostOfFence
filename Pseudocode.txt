@@ -1,0 +1,23 @@
+1.       Declare variables integer length, width and  the no of gate you  and String variable of type of fence.
+
+2.       Declare variable double typePrice,totalCost  and CalCost 
+
+3.       Print the message to enters the values length ,width, type of fence, the no of gate you want
+
+4.       Accepts the inputs values and assign them Scanner object
+
+5.       While gate should less than or equal to 1 or gate should be greater than 3
+
+	a.       If type is equalsIgnoreCase("Wooden") then
+
+	b.      Calculate the fence Cost and add the value of build permit
+
+	c.       Print the result 
+
+	d.      Else type is If type is equalsIgnoreCase(Chian-link) then
+
+	e.      Continue with b and c steps
+
+6.End control statement
+
+7.End while

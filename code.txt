@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class FenceCostCal {
+
+	public static void main(String[] args) {
+		int length,width;
+		String type;
+		double typePrice=0.0;
+		Double totalCost=0.0;
+		int gate=150;
+		int buildPermit=50;
+		double calCost=0.0;
+		Scanner scan =new Scanner(System.in);
+		System.out.print("Please Enter the length:");
+		length=scan.nextInt();
+		System.out.print("Please Enter the width:");
+		width=scan.nextInt();		
+		System.out.print("Please Enter the gate:");
+		gate=scan.nextInt();
+		System.out.print("Please Enter the type:");
+		type=scan.next();
+		if(type.equalsIgnoreCase("Wooden")){
+			
+			typePrice=25;		
+			int tot=length*width;
+			totalCost=(tot*typePrice)*0.06;			
+			calCost=totalCost+gate+buildPermit;
+			System.out.println("Cost of a Fence is:"+ calCost);
+			
+		}
+		else if(type.equalsIgnoreCase("Chain-link")){			
+			typePrice=25;		
+			int tot=length*width;
+			totalCost=(tot*typePrice)*0.06;			
+			calCost=totalCost+gate+buildPermit;
+			System.out.println("Cost of a Fence is:"+ calCost);
+		}
+		
+	}
+
+}
